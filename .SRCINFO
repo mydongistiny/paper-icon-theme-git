@@ -1,6 +1,6 @@
 pkgbase = paper-icon-theme-git
 	pkgdesc = Paper is an icon theme for GTK based desktops and fits perfectly the paper-gtk-theme
-	pkgver = 827.ab51c46f
+	pkgver = 830.d1ed2975
 	pkgrel = 1
 	url = https://github.com/snwh/paper-icon-theme
 	arch = any
@@ -10,8 +10,12 @@ pkgbase = paper-icon-theme-git
 	depends = gtk-update-icon-cache
 	provides = paper-icon-theme
 	source = 0001-Paper-scalable-fix-svg-namespace-definitions.patch
+	source = 0002-Remove-Adwaita-from-Inherits-section.patch
+	source = 0003-icons-apps.patch
 	source = paper-icon-theme-git::git+https://github.com/snwh/paper-icon-theme.git
-	md5sums = 9c3d3a14785f8b47fdc56e4bf162b76e
+	md5sums = 64e960f72eedcd32f5baa19404fb415d
+	md5sums = 43266ea4b4968632a8ebb038940c17d2
+	md5sums = 72190dd9a5016046e06710701217a0d4
 	md5sums = SKIP
 
 pkgname = paper-icon-theme-git

@@ -1,0 +1,26 @@
+From 30c21411f8697acbace25cfdf71bb11b276deb56 Mon Sep 17 00:00:00 2001
+From: Julius Marozas <marozas.julius@gmail.com>
+Date: Tue, 27 Aug 2019 23:05:41 +0300
+Subject: [PATCH 2/3] Remove Adwaita from Inherits section
+
+Signed-off-by: mydongistiny <jaysonedson@gmail.com>
+---
+ Paper/index.theme | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Paper/index.theme b/Paper/index.theme
+index 17a6bb76..bc21794a 100644
+--- a/Paper/index.theme
++++ b/Paper/index.theme
+@@ -1,7 +1,7 @@
+ [Icon Theme]
+ Name=Paper
+ Comment=A simple and modern icon theme.
+-Inherits=Adwaita,gnome,hicolor
++Inherits=gnome,hicolor
+ Example=folder
+ 
+ # KDE/Plasma Stuff
+-- 
+2.25.1
+
